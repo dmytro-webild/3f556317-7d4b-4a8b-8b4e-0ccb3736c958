@@ -23,10 +23,10 @@ export default function HomePage() {
           className="bg-transparent"
           tag="24/7 Hawaii Plumbing Service"
           title="Fast 24/7 emergency repairs across Hawaii."
-          description="Available around the clock for emergency repairs, drain cleaning, and pipe replacements with 5-star local service."
+          description="Available around the clock, our team arrives quickly for emergency repairs, drain cleaning, and pipe replacements with reliable 5-star service."
           primaryButton={{
             text: "Call 24/7 Plumber",
-            href: "tel:5\t\n4\t\n3\t\n2\t\n1\t\n5.0\n\n43"
+            href: "tel:8085550199"
           }}
           imageSrc="https://img.b2bpic.net/free-photo/modern-autonomous-heating-system-boiler-room_169016-51491.jpg"
           imageAlt="modern autonomous heating system"
@@ -69,22 +69,22 @@ export default function HomePage() {
       <div id="about" data-webild-section="AboutStatementIconRow" data-webild-section-id="AboutStatementIconRow-1" data-section="about" data-tone="card">
         <AboutStatementIconRow
           className="bg-transparent"
-          title="When the drain backs up on Sunday morning, Stephen answers your call immediately with honest advice and clear communication."
+          title="When a drain backs up or a pipe bursts, our team arrives quickly with honest advice, clear communication, and reliable service."
           items={[
             {
               icon: "phone-call",
               title: "24/7 Rapid Response",
-              description: "Available around the clock for emergency drain cleaning, pipe bursts, and weekend plumbing repairs."
+              description: "Our response team is dispatched immediately around the clock for emergency drain cleaning, pipe bursts, and weekend repairs."
             },
             {
               icon: "shield-check",
               title: "5.0-Star Rated Service",
-              description: "Trusted across Oahu with 43 verified 5-star customer reviews on Google."
+              description: "Trusted across Oahu with verified 5-star customer reviews for speed, transparency, and dependable workmanship."
             },
             {
               icon: "wrench",
               title: "Expert Diagnostics",
-              description: "Clear explanations, upfront solutions, and whole-house Halo 5 filtration system installs."
+              description: "Clear explanations, upfront pricing, and professional whole-house Halo 5 filtration system installs."
             }
           ]}
         />
@@ -95,7 +95,7 @@ export default function HomePage() {
           className="bg-transparent"
           tag="Our Capabilities"
           title="From Halo 5 filtration to rapid emergency snaking"
-          description="Professional local plumbing solutions available 24/7 across Hawaii with clean workmanship."
+          description="Professional local plumbing solutions with fast team dispatch and dependable service across Hawaii."
           backgroundImageSrc="https://img.b2bpic.net/free-photo/plumbing-repair-service_181624-27146.jpg"
           items={[
             {
@@ -112,7 +112,7 @@ export default function HomePage() {
             },
             {
               title: "Emergency Availability",
-              description: "Ready to answer calls and dispatch plumbers anytime day or night.",
+              description: "Our team is ready to answer calls and dispatch qualified plumbers anytime day or night.",
               value: "24/7",
               valueLabel: "round-the-clock dispatch"
             },
@@ -163,9 +163,9 @@ export default function HomePage() {
           items={[
             {
               company: "Kailua Residence",
-              quote: "Our drains backed up and Stephen answered our call at 7:15 AM on Sunday. He communicated clearly and cleared the blockage fast.",
-              name: "Puka Ka Momi",
-              role: "Homeowner",
+              quote: "Our drains backed up on Sunday morning and their team answered immediately. A technician arrived quickly, explained everything clearly, and cleared the blockage fast.",
+              name: "Verified Oahu Homeowner",
+              role: "Kailua Resident",
               imageSrc: "https://img.b2bpic.net/free-photo/flat-lay-still-life-assortment-pvc_23-2149062949.jpg",
               imageAlt: "blue pvc pipe fittings",
               stats: [
@@ -181,9 +181,9 @@ export default function HomePage() {
             },
             {
               company: "Honolulu Home",
-              quote: "I had a plumbing emergency late Friday. Called several plumbers on Saturday morning, and Stephen provided fast, friendly, professional repair when others were unavailable.",
-              name: "Grace Webb",
-              role: "Honolulu Resident",
+              quote: "We had a plumbing emergency late Friday night. Their response team provided fast, friendly, professional repair when others were unavailable.",
+              name: "Oahu Resident",
+              role: "Honolulu Homeowner",
               imageSrc: "https://img.b2bpic.net/free-photo/smiley-senior-woman-beach-enjoying-her-day_23-2149014628.jpg",
               imageAlt: "Smiley senior woman at the beach enjoying her day",
               stats: [
@@ -199,8 +199,8 @@ export default function HomePage() {
             },
             {
               company: "Kaneohe Household",
-              quote: "Kitchen sink clogged late at night and nothing we tried worked. Morning call to Plumbing Hawaii saved us. Quick service and excellent communication.",
-              name: "Nathan Henderson",
+              quote: "Kitchen sink clogged late at night and nothing we tried worked. Morning call to Plumbing Hawaii saved us. Quick team arrival and excellent communication.",
+              name: "Island Resident",
               role: "Kaneohe Homeowner",
               imageSrc: "https://img.b2bpic.net/free-photo/happy-handsome-dark-haired-latin-man-posing-with-arms-folded-kitchen_74855-8094.jpg",
               imageAlt: "Happy handsome dark haired Latin man posing with arms folded in kitchen",
@@ -239,7 +239,7 @@ export default function HomePage() {
             },
             {
               title: "How quickly can a technician arrive for emergency repairs?",
-              description: "For urgent drain back-ups or pipe leaks in Honolulu, our plumber responds immediately and arrives as quickly as possible."
+              description: "For urgent drain back-ups or pipe leaks in Honolulu, our response team dispatches immediately and arrives as quickly as possible."
             },
             {
               title: "Do you clear clogged kitchen sinks and main line drains?",
@@ -249,7 +249,7 @@ export default function HomePage() {
           help={{
             label: "Emergency Support",
             title: "Need urgent plumbing help?",
-            description: "Speak with Stephen for 24/7 emergency service in Honolulu.",
+            description: "Contact our emergency response team for 24/7 service in Honolulu.",
             cta: {
               text: "Call now",
               href: "#contact-dark-form-card"
@@ -277,7 +277,7 @@ export default function HomePage() {
             message: "Describe your leak, backed up drain, or service request."
           }}
           submitText="Send Request"
-          successText="Mahalo! Stephen will review your message and call shortly."
+          successText="Mahalo! Our team will review your message and contact you shortly."
           imageSrc="https://img.b2bpic.net/free-photo/arched-faucet-modern-sink-blue-fronts_169016-69255.jpg"
           imageAlt="Arched faucet modern sink blue fronts"
         />

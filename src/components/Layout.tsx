@@ -70,7 +70,7 @@ export default function Layout() {
               title: "Company",
               links: [
                 {
-                  text: "About Stephen",
+                  text: "About Our Team",
                   href: "#about"
                 },
                 {
@@ -87,8 +87,8 @@ export default function Layout() {
               title: "Contact",
               links: [
                 {
-                  text: "(5\t\n4\t\n3\t\n2\t\n1\t\n5.0\n\n43",
-                  href: "tel:5\t\n4\t\n3\t\n2\t\n1\t\n5.0\n\n43"
+                  text: "(808) 555-0199",
+                  href: "tel:8085550199"
                 },
                 {
                   text: "info@plumbinghawaii.com",
@@ -105,7 +105,7 @@ export default function Layout() {
               links: [
                 {
                   text: "24/7 Emergency Line",
-                  href: "tel:5\t\n4\t\n3\t\n2\t\n1\t\n5.0\n\n43"
+                  href: "tel:8085550199"
                 },
                 {
                   text: "Privacy Policy",
