@@ -7,7 +7,7 @@ export default function Layout() {
     <div className="relative isolate min-h-svh flex flex-col bg-background text-foreground" data-button="chip" data-card="tray" data-pattern="none">
       <header data-webild-section="Header">
         <NavbarFloatingPill
-          brand="Plumbing Hawaii"
+          brand="De Silva's Plumbing"
           navItems={[
             {
               name: "About",
@@ -31,8 +31,8 @@ export default function Layout() {
             }
           ]}
           cta={{
-            text: "24/7 Emergency Service",
-            href: "#contact-dark-form-card"
+            text: "(808) 325-7069",
+            href: "tel:8083257069"
           }}
           introDelay={1.2}
         />
@@ -42,26 +42,26 @@ export default function Layout() {
       </main>
       <footer data-webild-section="Footer" data-section="footer">
         <FooterTrayWordmark
-          brand="Plumbing Hawaii"
-          wordmark="Plumbing Hawaii"
+          brand="De Silva's Plumbing"
+          wordmark="De Silva's Plumbing"
           columns={[
             {
               title: "Services",
               links: [
                 {
-                  text: "Emergency Repairs",
+                  text: "Main Line Installation",
                   href: "#services"
                 },
                 {
-                  text: "Drain Cleaning",
+                  text: "Emergency Leak Repair",
                   href: "#services"
                 },
                 {
-                  text: "Halo 5 Water Systems",
+                  text: "Drain Cleaning & Snaking",
                   href: "#services"
                 },
                 {
-                  text: "Pipe Replacement",
+                  text: "Pipe Replacement & Excavation",
                   href: "#services"
                 }
               ]
@@ -70,7 +70,7 @@ export default function Layout() {
               title: "Company",
               links: [
                 {
-                  text: "About Our Team",
+                  text: "About De Silva's Plumbing",
                   href: "#about"
                 },
                 {
@@ -87,38 +87,38 @@ export default function Layout() {
               title: "Contact",
               links: [
                 {
-                  text: "(808) 555-0199",
-                  href: "tel:8085550199"
+                  text: "(808) 325-7069",
+                  href: "tel:8083257069"
                 },
                 {
-                  text: "info@plumbinghawaii.com",
-                  href: "mailto:info@plumbinghawaii.com"
-                },
-                {
-                  text: "Honolulu, HI 96815",
+                  text: "73-1260 Lihau St, Kailua-Kona, HI 96740",
                   href: "#contact-dark-form-card"
+                },
+                {
+                  text: "info@desilvasplumbing.com",
+                  href: "mailto:info@desilvasplumbing.com"
                 }
               ]
             },
             {
-              title: "Availability",
+              title: "Location & Hours",
               links: [
                 {
-                  text: "24/7 Emergency Line",
-                  href: "tel:8085550199"
+                  text: "Kailua-Kona & Big Island",
+                  href: "#contact-dark-form-card"
+                },
+                {
+                  text: "Call (808) 325-7069",
+                  href: "tel:8083257069"
                 },
                 {
                   text: "Privacy Policy",
-                  href: "#"
-                },
-                {
-                  text: "Terms of Service",
                   href: "#"
                 }
               ]
             }
           ]}
-          copyright="© 2026 Plumbing Hawaii. All rights reserved."
+          copyright="© 2026 De Silva's Plumbing. All rights reserved."
           topText="Back to top"
         />
       </footer>

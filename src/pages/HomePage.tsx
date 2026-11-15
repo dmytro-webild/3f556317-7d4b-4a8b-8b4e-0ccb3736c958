@@ -13,45 +13,37 @@ export default function HomePage() {
       <ScrollToneBackdrop />
 
       <LoaderChipFill
-        label="Plumbing Hawaii"
+        label="De Silva's Plumbing"
       />
 
       <div id="home" data-webild-section="HeroBoardFrame" data-webild-section-id="HeroBoardFrame-1" data-section="home">
         <HeroBoardFrame
           className="bg-transparent"
-          tag="24/7 Hawaii Plumbing Team"
-          title="Prompt Arrival & 24/7 Emergency Repairs Across Hawaii"
-          description="Available around the clock, our response team arrives promptly for emergency leak repairs, backed-up drains, and whole-house Halo 5 filtration installs with reliable 5-star service."
+          tag="Kailua-Kona, HI • Plumber Services"
+          title="Dependable Plumbing & Main Line Services in Kailua-Kona"
+          description="Serving Kailua-Kona and the Big Island with fast, neat, and accurate plumbing repairs, main line installations, and emergency leak services. Call (808) 325-7069 today."
           primaryButton={{
-            text: "Call 24/7 Response Team",
-            href: "tel:8085550199"
+            text: "Call (808) 325-7069",
+            href: "tel:8083257069"
           }}
           imageSrc="https://img.b2bpic.net/free-photo/modern-autonomous-heating-system-boiler-room_169016-51491.jpg"
           imageAlt="modern autonomous heating system"
           introDelay={1.2}
           kpis={[
             {
-              label: "Average Arrival",
-              value: "25 min",
-              delta: "Prompt",
-              trend: [
-                15,
-                20,
-                18,
-                25,
-                22,
-                25
-              ]
+              label: "Location",
+              value: "Kailua-Kona",
+              delta: "73-1260 Lihau St"
             },
             {
               label: "Google Rating",
-              value: "5.0 ★",
-              delta: "43 reviews"
+              value: "4.0 ★",
+              delta: "7 reviews"
             },
             {
-              label: "Team Support",
-              value: "24/7",
-              delta: "Always ready",
+              label: "Phone Line",
+              value: "(808) 325-7069",
+              delta: "Direct Call",
               trend: [
                 100,
                 100,
@@ -68,22 +60,22 @@ export default function HomePage() {
       <div id="about" data-webild-section="AboutStatementIconRow" data-webild-section-id="AboutStatementIconRow-1" data-section="about" data-tone="card">
         <AboutStatementIconRow
           className="bg-transparent"
-          title="When a drain backs up or a pipe bursts, our team dispatches immediately with prompt arrival, honest communication, and reliable 24/7 island service."
+          title="Located at 73-1260 Lihau St in Kailua-Kona, De Silva's Plumbing delivers fast, neat, and precise plumbing services for main line installations, leak repairs, and property maintenance."
           items={[
             {
-              icon: "phone-call",
-              title: "Prompt 24/7 Dispatch",
-              description: "Our response team is dispatched immediately around the clock for emergency drain cleaning, pipe bursts, and weekend repairs."
-            },
-            {
-              icon: "shield-check",
-              title: "5.0-Star Island Team",
-              description: "Trusted across Oahu with verified 5-star customer reviews for speed, transparency, and dependable team workmanship."
+              icon: "map-pin",
+              title: "Kailua-Kona Local Base",
+              description: "Conveniently located at 73-1260 Lihau St, offering reliable local plumbing services across Kailua-Kona and the Big Island."
             },
             {
               icon: "wrench",
-              title: "Expert Team Diagnostics",
-              description: "Clear explanations, upfront pricing, and professional whole-house Halo 5 filtration system installs by our dedicated technicians."
+              title: "Main Line Specialists",
+              description: "Expert main line installation, excavation, trenching, and thorough job site cleanup by an experienced local crew."
+            },
+            {
+              icon: "shield-check",
+              title: "Fast, Neat & Accurate",
+              description: "Known for rapid response when emergency leaks occur, along with neat workmanship and accurate troubleshooting."
             }
           ]}
         />
@@ -92,64 +84,64 @@ export default function HomePage() {
       <div id="services" data-webild-section="FeaturesBentoWidgets" data-webild-section-id="FeaturesBentoWidgets-1" data-section="services" data-tone="deep" data-gallery>
         <FeaturesBentoWidgets
           className="bg-transparent"
-          tag="Island-Wide Coverage"
-          title="Prompt Arrival & 24/7 Comprehensive Plumbing Solutions"
-          description="Professional local plumbing services with rapid team dispatch, clear communication, and dependable support across Hawaii."
+          tag="Big Island Plumbing Services"
+          title="Overview of Plumbing Services in Kailua-Kona"
+          description="Professional plumbing solutions tailored for Big Island residential and commercial properties."
           backgroundImageSrc="https://img.b2bpic.net/free-photo/plumbing-repair-service_181624-27146.jpg"
           items={[
             {
-              tag: "Local Plumbing Team",
-              title: "Comprehensive Pipe & Filtration Services",
-              description: "Clean, mess-free work for residential and commercial plumbing systems.",
+              tag: "Core Services",
+              title: "Main Line & Emergency Plumbing Overview",
+              description: "Dependable, mess-free work for residential and commercial plumbing systems across Kailua-Kona.",
               tags: [
-                "Emergency Repairs",
-                "Prompt Arrival",
-                "24/7 Dispatch",
-                "Halo 5 Filtration",
-                "Drain Snaking"
+                "Main Line Installation",
+                "Emergency Leak Repair",
+                "Pipe Trenching & Digging",
+                "Drain Cleaning",
+                "Clean Site Restoration"
               ]
             },
             {
-              title: "24/7 Emergency Service",
-              description: "Our team answers calls 24 hours a day to dispatch qualified technicians immediately.",
-              value: "24/7",
-              valueLabel: "round-the-clock team dispatch"
+              title: "Direct Phone Contact",
+              description: "Call De Silva's Plumbing directly for service scheduling, estimates, and immediate inquiries.",
+              value: "(808) 325-7069",
+              valueLabel: "Call or text for service"
             },
             {
-              title: "Halo 5 Water Treatment",
-              description: "Whole-house water filtration systems installed by our team to remove chlorine odor and improve water clarity.",
+              title: "Main Line Installation",
+              description: "Complete main line replacement and trenching carried out with speed and meticulous site cleanup.",
               imageSrc: "https://img.b2bpic.net/free-photo/high-angle-still-life-assortment-pvc_23-2149062941.jpg",
               imageAlt: "High angle of still life assortment of pvc"
             },
             {
-              title: "Team Response Status",
-              description: "Guaranteed response times and active communication from dispatch to prompt arrival.",
+              title: "Local Business Details",
+              description: "Essential location and contact details for De Silva's Plumbing on the Big Island.",
               rows: [
                 {
-                  label: "Sunday Morning Calls",
-                  value: "Answered Live"
+                  label: "Address",
+                  value: "73-1260 Lihau St"
                 },
                 {
-                  label: "Emergency Team Dispatch",
-                  value: "Immediate"
+                  label: "City / Zip",
+                  value: "Kailua-Kona, HI 96740"
                 },
                 {
-                  label: "Technician Arrival",
-                  value: "Prompt"
+                  label: "Phone",
+                  value: "(808) 325-7069"
                 }
               ]
             },
             {
-              title: "Rapid Drain Snaking",
-              description: "Clearing stubborn kitchen sink, bathroom, and main line backups quickly with modern video inspection.",
+              title: "Emergency Leak Repair",
+              description: "Fast troubleshooting and emergency repair when unexpected leaks occur on the Big Island.",
               imageSrc: "https://img.b2bpic.net/free-photo/flat-lay-still-life-arrangement-pvc_23-2149062977.jpg",
               imageAlt: "assorted grey plumbing pipe fittings"
             },
             {
-              title: "5.0-Star Customer Reviews",
-              description: "Top-rated island service backed by 43 verified reviews praising our team's fast arrival.",
-              value: "5.0",
-              valueLabel: "based on 43 reviews"
+              title: "Customer Rating",
+              description: "Verified 4.0-star customer rating on Google for fast, neat, and reliable plumbing work.",
+              value: "4.0 ★",
+              valueLabel: "7 customer reviews"
             }
           ]}
         />
@@ -158,59 +150,59 @@ export default function HomePage() {
       <div id="customers" data-webild-section="TestimonialSpotlightCarousel" data-webild-section-id="TestimonialSpotlightCarousel-1" data-section="customers">
         <TestimonialSpotlightCarousel
           tag="Customer Reviews"
-          title="Rated 5.0 Stars for Fast Team Arrival & 24/7 Support"
+          title="What Local Customers Say About De Silva's Plumbing"
           items={[
             {
-              company: "Kailua Residence",
-              quote: "Our drains backed up on Sunday morning and their response team answered live at 7:15 AM. A technician arrived quickly, explained everything clearly, and cleared the blockage fast.",
-              name: "Oahu Homeowner",
-              role: "Kailua Resident",
+              company: "Big Island Emergency Leak",
+              quote: "They saved my life! As everyone knows, it is very hard to get repaired right away on Big Island. I had an emergency leak and called about 10 plumbing companies until they came through for me.",
+              name: "Gwen K.",
+              role: "Big Island Resident",
               imageSrc: "https://img.b2bpic.net/free-photo/flat-lay-still-life-assortment-pvc_23-2149062949.jpg",
               imageAlt: "blue pvc pipe fittings",
               stats: [
                 {
-                  label: "Response time",
-                  value: "7:15 AM Sunday"
+                  label: "Issue",
+                  value: "Emergency Leak"
                 },
                 {
-                  label: "Arrival speed",
-                  value: "Prompt"
-                }
-              ]
-            },
-            {
-              company: "Honolulu Home",
-              quote: "We had a plumbing emergency late Friday night. Their response team provided fast, friendly, professional repair when no one else was available.",
-              name: "Honolulu Resident",
-              role: "Honolulu Homeowner",
-              imageSrc: "https://img.b2bpic.net/free-photo/smiley-senior-woman-beach-enjoying-her-day_23-2149014628.jpg",
-              imageAlt: "Smiley senior woman at the beach enjoying her day",
-              stats: [
-                {
-                  label: "Availability",
-                  value: "24/7 Support"
-                },
-                {
-                  label: "Overall rating",
+                  label: "Rating",
                   value: "5.0 Stars"
                 }
               ]
             },
             {
-              company: "Kaneohe Household",
-              quote: "Kitchen sink clogged late at night. A morning call to Plumbing Hawaii brought prompt team arrival, great communication, and clean work.",
-              name: "Island Resident",
-              role: "Kaneohe Homeowner",
+              company: "Kailua-Kona Main Line",
+              quote: "I needed a new main line put in. Sid arrived with two workers, and they got to work with digging right away. Sid is a whirlwind—he knows exactly where, when and what. Done in a flash, and nice clean up!",
+              name: "Kathy M.",
+              role: "Kailua-Kona Homeowner",
+              imageSrc: "https://img.b2bpic.net/free-photo/smiley-senior-woman-beach-enjoying-her-day_23-2149014628.jpg",
+              imageAlt: "Smiley senior woman at the beach enjoying her day",
+              stats: [
+                {
+                  label: "Service",
+                  value: "Main Line Install"
+                },
+                {
+                  label: "Cleanup",
+                  value: "Neat & Clean"
+                }
+              ]
+            },
+            {
+              company: "Kailua-Kona Plumbing",
+              quote: "The plumber is a wonderful worker and is fast, neat and accurate from everything I can tell.",
+              name: "Tiro L.",
+              role: "Kailua-Kona Resident",
               imageSrc: "https://img.b2bpic.net/free-photo/happy-handsome-dark-haired-latin-man-posing-with-arms-folded-kitchen_74855-8094.jpg",
               imageAlt: "Happy handsome dark haired Latin man posing with arms folded in kitchen",
               stats: [
                 {
-                  label: "Water system",
-                  value: "Halo 5 filter"
+                  label: "Quality",
+                  value: "Fast & Accurate"
                 },
                 {
-                  label: "Water taste",
-                  value: "Smooth & Clean"
+                  label: "Workmanship",
+                  value: "Neat Work"
                 }
               ]
             }
@@ -220,38 +212,38 @@ export default function HomePage() {
 
       <div id="faq-tray-accordion-1" data-webild-section="FaqTrayAccordion" data-webild-section-id="FaqTrayAccordion-1" data-section="faq-tray-accordion-1">
         <FaqTrayAccordion
-          tag="24/7 Service Info"
+          tag="Kailua-Kona Service Info"
           title="Frequently Asked"
           highlight="Questions"
           items={[
             {
-              title: "How fast is your team's arrival for emergency calls?",
-              description: "Our response team dispatches immediately for emergency leaks, burst pipes, and backed-up drains across Oahu to ensure prompt arrival."
+              title: "Where is De Silva's Plumbing located?",
+              description: "De Silva's Plumbing is located at 73-1260 Lihau St, Kailua-Kona, HI 96740, serving Kailua-Kona and surrounding areas on the Big Island."
             },
             {
-              title: "Are team members available 24/7 on weekends and early mornings?",
-              description: "Yes! Our 24/7 emergency dispatch line is answered live around the clock, including early Sunday mornings and weekend nights."
+              title: "What is the phone number for De Silva's Plumbing?",
+              description: "You can reach us directly at (808) 325-7069 to discuss your plumbing needs, schedule service, or request emergency help."
             },
             {
-              title: "Do you install whole-house Halo 5 filtration systems?",
-              description: "Yes. Our technicians expertly install Halo 5 water treatment systems to eliminate chlorine taste and heavy minerals throughout your home."
+              title: "What services do you provide?",
+              description: "We offer comprehensive plumbing services, including main line installations, trenching, emergency leak repair, drain snaking, and pipe maintenance."
             },
             {
-              title: "What should I do while waiting for the technician to arrive?",
-              description: "Shut off your main water valve immediately if you have an active leak to prevent water damage while our team is en route."
+              title: "Do you handle main line replacement projects?",
+              description: "Yes, we specialize in installing and replacing main lines, including fast excavation, line placement, testing, and clean site restoration."
             },
             {
-              title: "Do you clear clogged kitchen sinks and main sewer lines?",
-              description: "Yes, our team uses professional drain snaking and video inspection to clear kitchen sinks, bathrooms, and main lines rapidly."
+              title: "Are you available for emergency leak repairs on the Big Island?",
+              description: "Yes! We respond quickly to emergency leaks and urgent plumbing issues across Kailua-Kona to protect your home from water damage."
             }
           ]}
           help={{
-            label: "Emergency Support",
-            title: "Need urgent plumbing help?",
-            description: "Contact our 24/7 emergency response team for fast island dispatch.",
+            label: "Kailua-Kona Plumber",
+            title: "Need plumbing help in Kailua-Kona?",
+            description: "Call De Silva's Plumbing directly at (808) 325-7069 for fast, neat, and reliable service.",
             cta: {
-              text: "Call now",
-              href: "#contact-dark-form-card"
+              text: "Call (808) 325-7069",
+              href: "tel:8083257069"
             },
             imageSrc: "https://img.b2bpic.net/free-photo/cheerful-adult-plumber-sitting-bathroom_23-2147772218.jpg",
             imageAlt: "Cheerful adult plumber sitting in bathroom"
@@ -261,22 +253,22 @@ export default function HomePage() {
 
       <div id="contact-dark-form-card" data-webild-section="ContactDarkFormCard" data-webild-section-id="ContactDarkFormCard-1" data-section="contact-dark-form-card">
         <ContactDarkFormCard
-          title="Need Emergency Plumbing Support Right Now?"
-          formTitle="Request Immediate Team Service"
+          title="Contact De Silva's Plumbing in Kailua-Kona"
+          formTitle="Request Service or Information"
           fields={{
             name: "Full name",
             email: "Email address",
-            company: "Property location",
+            company: "Property address / Location",
             message: "Plumbing issue details"
           }}
           placeholders={{
             name: "Your full name",
-            email: "info@plumbinghawaii.com",
-            company: "Honolulu or Oahu neighborhood",
-            message: "Describe your leak, backed-up drain, or Halo 5 filtration request."
+            email: "info@desilvasplumbing.com",
+            company: "73-1260 Lihau St, Kailua-Kona, HI",
+            message: "Describe your plumbing issue, main line project, or leak repair request."
           }}
           submitText="Send Request"
-          successText="Mahalo! Our response team will review your message and contact you immediately."
+          successText="Mahalo! De Silva's Plumbing has received your message and will contact you shortly."
           imageSrc="https://img.b2bpic.net/free-photo/arched-faucet-modern-sink-blue-fronts_169016-69255.jpg"
           imageAlt="Arched faucet modern sink blue fronts"
         />
